@@ -6,6 +6,16 @@ $turquoise: #216583;
 $dark-pink: #f76262;
 $yellow: #fff1c1;
 
+// Sections styling
+.dark-section {
+  background-color: $dark-blue;
+  color: $yellow;
+}
+
+.light-section {
+  background-color: $turquoise;
+  color: $yellow;
+}
 
 // Hero section styles
 .hero {

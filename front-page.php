@@ -22,3 +22,14 @@ get_header(); ?>
     <img src="<?php echo get_theme_file_uri('images/Slider-ErosionModel.png') ?> " alt="REPLACE" class="hero-image">
   </div>
 </section>
+
+<section id="helonaki" class="light-section">
+  <div class="container-fluid">
+    <h2>Work With The Helonaki</h2>
+    <div class="row">
+      <div class="">
+
+      </div>
+    </div>
+  </div>
+</section>
