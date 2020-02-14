@@ -58,6 +58,13 @@ $yellow: #fff1c1;
 // Services cards
 .services-card {
   max-width: 540 px;
+  background-color: $turquoise;
+  color: $yellow;
+}
+
+// cta
+.cta-card {
+  max-width: 600px;
   background-color: $yellow;
   color: $dark-blue;
 }

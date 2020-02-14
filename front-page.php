@@ -116,3 +116,25 @@ get_header(); ?>
     </div>
   </div>
 </section>
+
+<section id="cta" class="dark-section">
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-md-3">
+        <!-- empty for spacing -->
+      </div>
+      <div class="card col-md-8 cta-card">
+        <div class="card-body">
+          <h3>Jumpstart Your Projects!</h3>
+          <p>Let The Helonaki acclerate your mapping, analysis, or web projects!
+          </p>
+          <a href="#" class="btn btn-warning">Schedule your FREE consultation</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<?php
+get_footer();
+?>
