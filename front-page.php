@@ -13,4 +13,15 @@ defined( 'ABSPATH' ) || exit;
 
 get_header(); ?>
 
-<h1>Helonaki website!!</h1>
+<section id="title" class="dark-section">
+  <div class="hero container-fluid p-4">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="images/Slider-ErosionModel.png" alt="REPLACE" class="hero-image">
+      </div>
+    </div>
+    <div class="hero-overlay">
+      <h1>Helonaki Web Site</h1>
+    </div>
+  </div>
+</section>
