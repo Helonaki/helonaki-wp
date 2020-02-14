@@ -14,14 +14,11 @@ defined( 'ABSPATH' ) || exit;
 get_header(); ?>
 
 <section id="title" class="dark-section">
-  <div class="hero container-fluid p-4">
-    <div class="row">
-      <div class="col-md-12">
-        <img src="images/Slider-ErosionModel.png" alt="REPLACE" class="hero-image">
-      </div>
-    </div>
+  <div class="hero">
     <div class="hero-overlay">
-      <h1>Helonaki Web Site</h1>
+      <h1>Work with The Helonaki</h1>
+      <h2>Open-Source Mapping, Data Analysis, Modeling, and Web Design</h2>
     </div>
+    <img src="<?php echo get_theme_file_uri('images/Slider-ErosionModel.png') ?> " alt="REPLACE" class="hero-image">
   </div>
 </section>

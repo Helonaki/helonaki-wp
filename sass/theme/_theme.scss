@@ -1,1 +1,38 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+
+// Theme colors
+$dark-blue: #293462;
+$turquoise: #216583;
+$dark-pink: #f76262;
+$yellow: #fff1c1;
+
+
+// Hero section styles
+.hero {
+  position: relative;
+}
+
+.hero-overlay {
+  position: absolute;
+  z-index: 0;
+  text-align: center;
+  width: 100%;
+  h1 {
+    color: $yellow;
+    font-size: 4vw;
+    transform: translateY(15vw);
+  }
+  h2 {
+    color: $yellow;
+    font-size: 2vw;
+    transform: translateY(17vw);
+  }
+}
+
+.hero-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: -1;
+  overflow: visible;
+}
